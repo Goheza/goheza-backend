@@ -60,7 +60,7 @@ app.get("/", (_req, res) => {
       width: 8px;
       height: 8px;
       border-radius: 50%;
-      background: #22c55e;
+      background:#22c55e;
     }
   </style>
 </head>
