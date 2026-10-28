@@ -1,0 +1,15 @@
+{
+  // ...
+  "vars": {
+    "API_KEY": "19ddcdb13091369df8aa5cca9b1cacf62347c7adc6b9e92fd5132de1b208d4bf",
+    "API_PUBLIC_URL": "https://api.goheza.com",
+    "FRONTEND_URL": "https://goheza.com",
+    "OAUTH_STATE_SECRET": "77fb0063331d0db8edcd6a1b313a04fdc09657d83505ca0246ecade9516245d1",
+    "PORT": "4000",
+    "SUPABASE_SERVICE_ROLE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImhscXhybGtqb2N5cWhqY3ljbmt5Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1NjcyNTYyMSwiZXhwIjoyMDcyMzAxNjIxfQ.-PYkGt2HXAMqgFy_JN9mpZaTJ6N2zi9O852HtgGnhV0",
+    "SUPABASE_URL": "https://hlqxrlkjocyqhjcycnky.supabase.co",
+    "TIKTOK_BUSINESS_APP_ID": "7669453111831822337",
+    "TIKTOK_BUSINESS_APP_SECRET": "4ff4e04847085ca038c476d581f56a9b2e351491"
+  },
+  // ...
+}
