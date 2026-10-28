@@ -35,8 +35,10 @@ app.get("/", (_req, res) => {
       background: #000;
       color: #fff;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
+      gap: 1.25rem;
       font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;
     }
     h1 {
@@ -45,10 +47,26 @@ app.get("/", (_req, res) => {
       letter-spacing: 0.08em;
       margin: 0;
     }
+    .status {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: #a3a3a3;
+    }
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #22c55e;
+    }
   </style>
 </head>
 <body>
   <h1>GOHEZA</h1>
+  <div class="status"><span class="dot"></span>Online</div>
 </body>
 </html>`);
 });
